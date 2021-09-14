@@ -1,0 +1,574 @@
+@CHARSET "ISO-8859-1";
+*
+{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	text-transform: capitalize;
+	overflow-x:hidden;
+}
+
+#maindiv
+{
+height:750px;
+background-image: linear-gradient(purple,blue);
+}
+
+nav
+{
+	position:absolute;
+	z-index:1;
+	background-image: linear-gradient(purple,navy);
+	width:100%;
+	border:2px soild green;
+	overflow:auto;
+	position:fixed;
+	top:0;
+}
+
+#topp
+{
+    color:blue;
+	float:left;
+	line-height:2;
+	margin-left: 50px;
+	font-family: 'Brush Script MT', cursive;
+	font-size: xx-large;
+}
+
+
+#topp>p>span
+{
+ 	color:white;
+}
+
+.anchor1>ul
+{
+	float:left;
+	margin-left:400px;
+}
+
+.anchor1>ul>li
+{
+	float:left;
+	padding:0px 20px;
+	margin-left:50px;
+	font-size: x-large;
+	text-transform: capitalize;
+	list-style-type: none;
+ line-height:50px;	
+}
+
+.anchor1>ul>li>a
+{
+	
+color:white;
+text-decoration: none;
+
+}
+
+.anchor1>ul>li>a:focus
+{
+	text-decoration: underline;
+	text-decoration-color:white;
+	text-decoration-style:solid;
+	text-decoration-thickness:5px;
+	text-underline-offset:4px;
+}
+
+.contentdiv
+{
+	clear:left;
+	width:500px;
+	margin-left:110px;
+	text-transform: capitalize;
+	position:relative;
+	top:150px;
+	line-height: 1.5;
+	float:left;
+}
+.contentdiv>p
+{
+	font-weight: bold;
+}
+.heading1
+{
+color:white;	
+}
+#form1>input
+{
+	border:2px solid black;
+	padding:2px 10px;
+	border-right:none;
+	width:70%;
+	font-size: large;
+	background-color:white;
+	color:black;
+}
+
+#form1>button
+{
+padding:5px 5px;
+width:70px; 
+border: 2px solid black;
+background-image: linear-gradient(purple,blue);
+color:white;
+cursor: pointer;
+position:relative;
+bottom:px;
+bottom:2px;
+}
+.icons
+{
+	font-size: 40px;	
+	margin-left:10px;
+}
+
+.fai
+{
+	color:purple;
+	background-color: white;
+}
+
+.faf
+{
+	color:blue;
+	margin-left:10px;
+	background-color: white;
+}
+
+.fat
+{
+	color:blue;
+	margin-left:10px;
+	background-color: white;
+}
+
+.img1
+{
+	border:35px solid navy;
+	float:left;
+	position:relative;
+	top:140px;
+	margin-left:300px;
+	border-radius:220px;
+	background-color: navy;
+}
+[src^="serum"]
+{
+	height:300px;
+	width:300px;
+	border:10px solid purple;
+	border-radius:170px;
+	border-bottom-width: 15px;
+	
+}
+
+[src^="firstimg"]
+{
+	width:300px;
+	height:350px;
+	border-radius:15px;
+	float:left;
+}
+
+/* second page about*/
+.maindiv12
+{
+	margin-left:150px;
+	margin-top:30px;
+}
+.maindiv2
+{
+	
+	height:380px;
+}
+#w
+{
+	position:relative;
+	left:300px;
+	top:20px;
+	font-weight: bolder;
+	
+}
+
+.maindiv2>p
+{
+	width:75%;
+	text-align: justify;
+	position:relative;
+	left:20px;
+	top:20px;
+	font-size: x-large;
+	font-family: Tahoma, sans-serif;
+}
+
+.visit1
+{
+	width:150px;
+	padding:8px 1px;
+	position:relative;
+	top:50px;
+	left:100px;
+	font-size: x-large;
+	background-image: linear-gradient(purple,blue);
+	color:white;
+}
+
+.middleimg>img 
+{
+	width:300px;
+	height:350px;
+	border-radius:15px;
+	margin-top:40px;
+	margin-right:50px;
+}
+
+.middleimg~p
+{
+	text-align: justify;
+	font-size: x-large;
+	font-family: Tahoma, sans-serif;
+	width:90%;
+}
+
+/* feature page*/
+
+.featurepage1
+{
+	margin-top:30px;
+	
+}
+
+.featurepage >img
+{
+	width:300px;
+	height:400px;
+	float:left;
+	margin-left:150px;
+}
+
+.featurepage>p
+{
+	width:60%;
+	text-align: justify;
+	position:relative;
+	left:40px;
+	top:20px;
+	font-size: x-large;
+	font-family: Tahoma, sans-serif;
+}
+
+.meet
+{
+	clear:left;
+	margin-top:100px;
+	width:100%;
+	padding:20px 0px;
+}
+
+.meet>img
+{
+	
+	width:300px;
+	height:400px;
+	margin-left:150px;
+	transition-property:width,height;
+
+}
+.meet>h1
+{
+	text-align: center;
+}
+
+.meet>p
+{
+	text-align: justify;
+	text-align-last:center;
+	font-size: x-large;
+	font-family: Tahoma, sans-serif;
+	white-space: pre;
+	
+}
+[alt^="ladies"]
+{
+	margin-top:50px;
+	margin-left:80px;
+	border:4px solid green;
+	border-radius:10px;
+	transition-property:height,width;
+	transition-duration:2s;
+	transition-timing-function:linear;
+}
+
+.meet>img:hover
+{
+	width:330px;
+	height:430px;
+}
+/* feature design end*/
+
+/* service page design start*/
+.servicesdiv
+{
+	width:100%;
+	margin-top:50px;
+  overflow:hidden;
+}
+.servicesdiv>h1
+{
+margin-left:150px;
+}
+
+.figure1
+{
+border:2px solid grey;	
+width:330px;
+float:left;
+margin-bottom:30px;
+margin-top:10px;
+margin-left:150px;
+}
+
+figure>img
+{
+	width:300px;
+	height:400px;
+	border-radius:10px;
+	
+	
+}
+
+figcaption
+{
+	text-align: center;
+	text-transform: capitalize;
+	font-weight: bold;
+	font-size: x-large;
+}
+
+.figure1:hover
+{
+box-shadow:5px 5px  grey;
+}
+
+.figure1+p
+{
+	width:75%;
+	text-align: justify;
+	font-size: x-large;
+	font-family: Tahoma, sans-serif;
+	margin-top:10px;
+	margin-left:150px;
+}
+
+.servicessubdiv
+{
+	margin-top:70px;
+}
+
+.servicessubdiv>h1
+{
+	text-align: center;
+}
+
+.servicessubdiv>img
+{
+	margin-left: 75px;
+	width:300px;
+	height:350px;
+	border-radius:15px;
+	margin-top:40px;
+	margin-left:150px;
+}
+
+.servicessubdiv>p
+{
+	width:75%;
+	text-align: justify;
+	font-size: x-large;
+	font-family: Tahoma, sans-serif;
+	margin-top:10px;
+	margin-left:150px;
+}
+
+.servicesubdiv2
+{
+margin-left:150px;
+margin-top:40px;	
+width:90%;
+}
+.servicesimg,.servicesimg3
+{
+	border:2px solid red;
+	width:30%;
+	float: left;
+	margin-right:350px;
+	margin-bottom:50px;
+}
+.servicesimg>img,.servicesimg3>img
+{
+	width:100px;
+	height:100px;
+	float:left;
+	margin-right:50px;	
+}
+
+.servicesimg2,.servicesimg4
+{
+	border:2px solid red;
+	width:30%;
+	margin-bottom:50px;
+}
+.servicesimg2>img,.servicesimg4>img
+{
+	width:100px;
+	height:100px;
+	margin-right:50px;	
+	float:left
+}
+
+.servicesimg5
+{
+	border:2px solid red;
+	width:30%;
+	clear:left;
+	margin-left:380px;
+}
+.servicesimg5>img
+{
+	width:100px;
+	height:100px;
+	margin-right:50px;	
+	float:left
+}
+
+.button2
+{
+	margin-top:50px;
+	width:200px;
+	font-size: large;
+	padding:10px 0px;
+	margin-left:650px;
+	background-image: linear-gradient(purple,blue);
+	color:white;
+}
+/* service page design end*/
+
+/*contact page*/
+
+.contactpage
+{
+	width:40%;
+	margin-left:150px;
+	margin-top:50px;
+	float:left;
+}
+
+.contactpage>h1
+{
+	margin-left:150px;
+}
+
+.contactpage>p,form
+{
+	text-align: justify;
+	font-size: x-large;
+	font-family: Tahoma, sans-serif;
+	margin-right:20px;
+}
+
+input[type="text"],input[type="submit"],input[type="email"]
+{
+	width:80%;
+	padding:10px 10px;
+	border:2px solid green;
+}
+[value^="submit"]
+{
+		font-size: x-large;
+	font-family: Tahoma, sans-serif;
+	background-image: linear-gradient(purple,blue);
+	color:white;
+}
+input[placeholder]
+{
+	font-size: x-large;
+	font-family: Tahoma, sans-serif;
+}
+
+[rows^="4"]
+{
+	width:80%;
+	padding:10px 10px;
+	border:2px solid green;
+	text-align: justify;
+	font-size: x-large;
+	font-family: Tahoma, sans-serif;
+}
+
+input[type="text"]:FOCUS, input[type="email"]:FOCUS,[rows^="4"]:FOCUS
+{
+	background-color:yellow;
+	color:navy
+}
+
+/*info design*/
+
+.info
+{
+	width:40%;
+	font-size: large;
+	margin-top:250px;
+	position:relative;
+	left:200px;
+}
+.info>h2
+{
+	margin-left:80px;
+}
+
+footer
+{
+	clear:both;
+	background-color:black;
+	color:white;
+	font-size: x-large;
+	padding:50px 60px;
+	position:relative;
+	top:50px;
+}
+
+.footer1
+{
+	float:left;
+}
+
+.footer2
+{
+	float:left;
+	width:30%;
+	position:relative;
+	left:350px;
+}
+
+.footer3
+{
+
+	border-left:4px solid white;
+	padding-left:10px;
+	position:relative;
+	left:400px;
+}
+
+.footer1>p
+{
+    color:blue;
+	font-family: 'Brush Script MT', cursive;
+	font-size:xx-large;
+}
+
+p>span
+{
+	color:white;
+}
